@@ -5,5 +5,7 @@
 ## Install
 
 ```shell
-npm install extense
+installer new <project>
+cd <project>
+npm run dev
 ```

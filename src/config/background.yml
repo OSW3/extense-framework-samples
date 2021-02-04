@@ -9,12 +9,7 @@ background:
         input:
             - app/background/index.js
     
-    omnibox:
-        output: app/backgroundOmnibox.js
-        input: app/background/omnibox.js
-    
-    oauth:
-        output: app/backgroundOauth.js
-        input:
-            - app/background/oauth.js
+    # other:
+    #     output: app/backgroundOther.js
+    #     input: app/background/other.js
         

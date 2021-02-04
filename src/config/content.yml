@@ -2,10 +2,14 @@
 content:
 
     scripts:
-        # - app/content.js
+        main:
+            output: app/content.js
+            input: app/content/index.js
 
-    stylesheets:
-        # - assets/stylesheets/content.css
+    styles:
+        main:
+            output: assets/stylesheets/content.css
+            input: assets/stylesheets/content.css
 
     # Specify Frame
     # https://developer.chrome.com/docs/extensions/mv2/content_scripts/#frames
