@@ -1,2 +1,1 @@
-
-console.log('NetLab Extension was loaded (background)');
+console.log('Your browser extension was loaded in background');
