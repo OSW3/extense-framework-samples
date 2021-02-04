@@ -1,0 +1,31 @@
+# Extension
+package:
+
+    # Extension Name - optional
+    # maximum of 45 characters
+    # @info https://developer.chrome.com/docs/extensions/mv2/manifest/name/#name
+    name: __MSG_ExtensionName__ 
+
+    # Extension Short Name - optional
+    # maximum of 12 characters recommended
+    # @info https://developer.chrome.com/docs/extensions/mv2/manifest/name/#short_name
+    short_name: ~
+
+    # Extenstion description - optional
+    # @info https://developer.chrome.com/docs/extensions/mv2/manifest/description/
+    description: __MSG_ExtensionDescription__
+
+    # Extension Version - optional
+    # Default: Package version
+    # @info https://developer.chrome.com/docs/extensions/mv2/manifest/version/
+    version: ~
+
+    # Author
+    # @var string Name of the author of the extension
+    # @default Package Author
+    author: ~
+
+    # Homepage URL
+    # @var string the url of Homepage of the extension
+    # @default Null
+    url: ~

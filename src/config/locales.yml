@@ -1,0 +1,5 @@
+locales:
+
+    # Default Locale - optional
+    # https://developer.chrome.com/docs/extensions/mv2/manifest/default_locale/
+    default: en

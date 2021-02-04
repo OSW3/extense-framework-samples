@@ -1,0 +1,248 @@
+security:
+
+    # Incognito Mode
+    # @var string spanning | split | not_allowed
+    # @default "spanning"
+    # https://developer.chrome.com/docs/extensions/mv2/manifest/incognito/
+    incognito: ~
+
+
+    # Permissions
+    # https://developer.chrome.com/docs/extensions/reference/permissions/
+    permissions:
+        - http://*/*
+        - https://*/*
+        
+        # Requests that the extension be granted permissions according to the activeTab specification.
+        #  -activeTab
+
+        # Gives your extension access to the chrome.alarms API.
+        # - alarms
+
+        # Makes Chrome start up early and shut down late, so that apps and extensions can have a longer life.
+        # - background
+
+        # Gives your extension access to the chrome.bookmarks API.
+        # - bookmarks
+
+        # Gives your extension access to the chrome.browsingData API.
+        # - browsingData
+
+        # Gives your extension access to the chrome.certificateProvider API.
+        # - certificateProvider
+
+        # Required if the extension or app uses document.execCommand('paste').
+        # - clipboardRead
+
+        # Indicates the extension or app uses document.execCommand('copy') or document.execCommand('cut'). This permission is required for hosted apps; it's recommended for extensions and packaged apps.
+        # - clipboardWrite
+
+        # Gives your extension access to the chrome.contentSettings API.
+        # - contentSettings
+
+        # Gives your extension access to the chrome.contextMenus API.
+        # - contextMenus
+
+        # Gives your extension access to the chrome.cookies API.
+        # - cookies
+
+        # Gives your extension access to the chrome.debugger API.
+        # - debugger
+
+        # Gives your extension access to the chrome.declarativeContent API.
+        # - declarativeContent
+
+        # Gives your extension access to the chrome.declarativeNetRequest API.
+        # - declarativeNetRequest
+
+        # Grants the extension access to events and methods within the chrome.declarativeNetRequest API which return information on declarative rules matched.
+        # - declarativeNetRequestFeedback
+
+        # Gives your extension access to the chrome.declarativeWebRequest API.
+        # - declarativeWebRequest
+
+        # Gives your extension access to the chrome.desktopCapture API.
+        # - desktopCapture
+
+        # Gives your extension access to the chrome.documentScan API.
+        # - documentScan
+
+        # Gives your extension access to the chrome.downloads API.
+        # - downloads
+
+        # Gives your extension access to the chrome.enterprise.deviceAttributes API.
+        # - enterprise.deviceAttributes
+
+        # Gives your extension access to the chrome.enterprise.hardwarePlatform API.
+        # - enterprise.hardwarePlatform
+
+        # Gives your extension access to the chrome.enterprise.networkingAttributes API.
+        # - enterprise.networkingAttributes
+
+        # Gives your extension access to the chrome.enterprise.platformKeys API.
+        # - enterprise.platformKeys
+
+        # Required if the extension or app uses any chrome.experimental.* APIs.
+        # - experimental
+
+        # Gives your extension access to the chrome.fileBrowserHandler API.
+        # - fileBrowserHandler
+
+        # Gives your extension access to the chrome.fileSystemProvider API.
+        # - fileSystemProvider
+
+        # Gives your extension access to the chrome.fontSettings API.
+        # - fontSettings
+
+        # Gives your extension access to the chrome.gcm API.
+        # - gcm
+
+        # Allows the extension or app to use the geolocation API without prompting the user for permission.
+        # - geolocation
+
+        # Gives your extension access to the chrome.history API.
+        # - history
+
+        # Gives your extension access to the chrome.identity API.
+        # - identity
+
+        # Gives your extension access to the chrome.idle API.
+        # - idle
+
+        # Gives your extension access to the chrome.loginState API.
+        # - loginState
+
+        # Gives your extension access to the chrome.management API.
+        # - management
+
+        # Gives your extension access to the native messaging API.
+        # - nativeMessaging
+
+        # Gives your extension access to the chrome.notifications API.
+        # - notifications
+
+        # Gives your extension access to the chrome.pageCapture API.
+        # - pageCapture
+
+        # Gives your extension access to the chrome.platformKeys API.
+        # - platformKeys
+
+        # Gives your extension access to the chrome.power API.
+        # - power
+
+        # Gives your extension access to the chrome.printerProvider API.
+        # - printerProvider
+
+        # Gives your extension access to the chrome.printing API.
+        # - printing
+
+        # Gives your extension access to the chrome.printingMetrics API.
+        # - printingMetrics
+
+        # Gives your extension access to the chrome.privacy API.
+        # - privacy
+
+        # Gives your extension access to the chrome.processes API.
+        # - processes
+
+        # Gives your extension access to the chrome.proxy API.
+        # - proxy
+
+        # Gives your extension access to the chrome.scripting API.
+        # - scripting
+
+        # Gives your extension access to the chrome.search API.
+        # - search
+
+        # Gives your extension access to the chrome.sessions API.
+        # - sessions
+
+        # Gives your extension access to the chrome.signedInDevices API.
+        # - signedInDevices
+
+        # Gives your extension access to the chrome.storage API.
+        # - storage
+
+        # Gives your extension access to the chrome.system.cpu API.
+        # - system.cpu
+
+        # Gives your extension access to the chrome.system.display API.
+        # - system.display
+
+        # Gives your extension access to the chrome.system.memory API.
+        # - system.memory
+
+        # Gives your extension access to the chrome.system.storage API.
+        # - system.storage
+
+        # Gives your extension access to the chrome.tabCapture API.
+        # - tabCapture
+
+        # Gives your extension access to the chrome.tabGroups API.
+        # - tabGroups
+
+        # Gives your extension access to privileged fields of the Tab objects used by several APIs including chrome.tabs and chrome.windows. In many circumstances your extension will not need to declare the "tabs" permission to make use of these APIs.
+        # - tabs
+
+        # Gives your extension access to the chrome.topSites API.
+        # - topSites
+
+        # Gives your extension access to the chrome.tts API.
+        # - tts
+
+        # Gives your extension access to the chrome.ttsEngine API.
+        # - ttsEngine
+
+        # Provides an unlimited quota for storing client-side data, such as databases and local storage files. Without this permission, the extension or app is limited to 5 MB of local storage.
+        # - unlimitedStorage
+
+        # Gives your extension access to the chrome.vpnProvider API.
+        # - vpnProvider
+
+        # Gives your extension access to the chrome.wallpaper API.
+        # - wallpaper
+
+        # Gives your extension access to the chrome.webNavigation API.
+        # - webNavigation
+
+        # Gives your extension access to the chrome.webRequest API.
+        # - webRequest
+
+        # Required if the extension uses the chrome.webRequest API in a blocking fashion.
+        # - webRequestBlocking
+
+
+
+    # Optional Permissions
+    # https://developer.chrome.com/docs/extensions/reference/permissions/
+    optional_permissions:
+        
+        # The chrome.debugger API serves as an alternate transport for Chrome's remote debugging protocol .
+        # - debugger
+        
+        # Grants the extension access to the chrome.declarativeNetRequest API.
+        # - declarativeNetRequest
+        
+        # Allows extension to expand Chrome DevTools functionality.
+        # - devtools
+        
+        # Canary and Dev channel only. Grants the extension access to chrome.experimental APIs.
+        # - experimental
+        
+        # Allows the extension to use the HTML5 geolocation API.
+        # - geolocation
+        
+        # Grants the extension access to the chrome.mdns API.
+        # - mdns
+        
+        # Grants the extension access to the chrome.proxy API to manage Chrome's proxy settings.
+        # - proxy
+        
+        # The chrome.tts API plays synthesized text-to-speech (TTS).
+        # - tts
+        
+        # The chrome.ttsEngine API implements a text-to-speech(TTS) engine using an extension.
+        # - ttsEngine
+        
+        # ChromeOS only. Use the chrome.wallpaper API change the ChromeOS wallpaper.
+        # - wallpaper

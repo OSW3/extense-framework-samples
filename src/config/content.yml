@@ -1,0 +1,33 @@
+# https://developer.chrome.com/docs/extensions/mv2/content_scripts/
+content:
+
+    scripts:
+        # - app/content.js
+
+    stylesheets:
+        # - assets/stylesheets/content.css
+
+    # Specify Frame
+    # https://developer.chrome.com/docs/extensions/mv2/content_scripts/#frames
+    all_frames: true
+
+    # Run Time - optional
+    # document_idle | document_start | document_end
+    # https://developer.chrome.com/docs/extensions/mv2/content_scripts/#run_time
+    run_time: document_end
+
+    # https://developer.chrome.com/docs/extensions/mv2/content_scripts/#matchAndGlob
+    matches:
+
+        include: 
+            - http://*/*
+            - https://*/*
+
+        exclude: ~
+    
+    # https://developer.chrome.com/docs/extensions/mv2/content_scripts/#matchAndGlob
+    globs:
+
+        include: ~
+        
+        exclude: ~

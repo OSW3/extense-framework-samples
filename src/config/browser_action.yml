@@ -1,0 +1,18 @@
+# https://developer.chrome.com/docs/extensions/reference/browserAction/
+browser_action:
+
+    # Popup
+    # https://developer.chrome.com/docs/extensions/reference/browserAction/#popup
+    popup: pages/popup/index.html
+
+    # Tooltip
+    # https://developer.chrome.com/docs/extensions/reference/browserAction/#tooltip
+    tooltip: __MSG_ExtensionName__
+
+    # https://developer.chrome.com/docs/extensions/reference/browserAction/#parts-of-the-ui
+    icons:
+        "16": assets/icons/icon16.png
+        "48": assets/icons/icon48.png
+        "128": assets/icons/icon128.png
+
+    

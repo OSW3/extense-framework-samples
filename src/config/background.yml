@@ -1,0 +1,20 @@
+# https://developer.chrome.com/docs/extensions/mv2/background_pages/
+background:
+    
+    # Script definition
+    # @property string output, path of compiled script. it's appear in manifest.json
+    # @property string|array input
+    main:
+        output: app/background.js
+        input:
+            - app/background/index.js
+    
+    omnibox:
+        output: app/backgroundOmnibox.js
+        input: app/background/omnibox.js
+    
+    oauth:
+        output: app/backgroundOauth.js
+        input:
+            - app/background/oauth.js
+        

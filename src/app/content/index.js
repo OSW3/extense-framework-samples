@@ -1,0 +1,1 @@
+console.log('NetLab Extension was loaded (content scripts)');

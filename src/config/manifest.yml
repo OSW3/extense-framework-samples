@@ -1,0 +1,7 @@
+# Manifest Version
+manifest:
+
+    # Manifest Version - required
+    # @var int 2|3
+    # @info https://developer.chrome.com/docs/extensions/mv2/manifest/manifest_version/
+    version: 2
