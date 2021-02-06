@@ -1,6 +1,6 @@
 const ExtenseFramework = require('extense');
 
-let chromeExtension = new ExtenseFramework( __dirname );
-    // chromeExtension.debug = true;
+let extension = new ExtenseFramework( __dirname );
+    // extension.debug = true;
 
-module.exports = chromeExtension.load();
+module.exports = extension.load();
